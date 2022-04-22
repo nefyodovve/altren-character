@@ -1168,7 +1168,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Money
+  m_Text: "\u0414\u0435\u043D\u044C\u0433\u0438"
 --- !u!222 &559633146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2144,7 +2144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3468990202431254181, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
       propertyPath: m_Text
-      value: Money
+      value: "\u0414\u0435\u043D\u044C\u0433\u0438"
       objectReference: {fileID: 0}
     - target: {fileID: 5049022982734092903, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2688,6 +2688,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2036966662}
     m_Modifications:
+    - target: {fileID: 223733626448628971, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 155
+      objectReference: {fileID: 0}
     - target: {fileID: 550143714996461545, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -2746,7 +2750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3468990202431254181, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
       propertyPath: m_Text
-      value: Toughness
+      value: "\u041F\u043E\u0440\u043E\u0433"
       objectReference: {fileID: 0}
     - target: {fileID: 5049022982734092903, guid: 04ba459ec5254e747a76190cdabc6002, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2962,7 +2966,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -2973,7 +2977,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EXIT
+  m_Text: X
 --- !u!222 &1893720043
 CanvasRenderer:
   m_ObjectHideFlags: 0

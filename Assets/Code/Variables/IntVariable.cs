@@ -9,29 +9,33 @@ public class IntVariable : ScriptableObject
 {
     public string DeveloperDescription = "";
     public int Value;
+    public bool Unsigned = false;
 
     public void SetValue(int value)
     {
-        Value = value;
+        if (Unsigned && value < 0)
+            Value = 0;
+        else
+            Value = value;
     }
 
     public void SetValue(IntVariable value)
     {
-        Value = value.Value;
+        SetValue(value.Value);
     }
 
     public void SetValueString(string s)
     {
-        Value = int.Parse(s);
+        SetValue(int.Parse(s));
     }
 
     public void ApplyChange(int amount)
     {
-        Value += amount;
+        SetValue(Value + amount);
     }
 
     public void ApplyChange(IntVariable amount)
     {
-        Value += amount.Value;
+        SetValue(Value + amount.Value);
     }
 }

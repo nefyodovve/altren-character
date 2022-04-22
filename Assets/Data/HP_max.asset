@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HP_max
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  Value: 4
+  Value: 5
+  Unsigned: 1
